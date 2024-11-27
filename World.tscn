@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Block.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=2]
+
+[node name="World" type="Node2D"]
+
+[node name="Block" parent="." instance=ExtResource( 1 )]
+position = Vector2( 63, 126 )
+
+[node name="Block2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 81, 126 )
+
+[node name="Block4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 99, 126 )
+
+[node name="Block6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 117, 126 )
+
+[node name="Block7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 117, 108 )
+rotation = 0.00258964
+
+[node name="Block9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 135, 108 )
+
+[node name="Block10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 135, 90 )
+
+[node name="Block12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 153, 90 )
+
+[node name="Block13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 171, 90 )
+
+[node name="Block15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 189, 90 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 81, 18 )
+rotation = 0.00144537
